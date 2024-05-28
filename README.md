@@ -33,16 +33,11 @@ The VirusTotal File Scanner is a Python script with a simple GUI built using Tki
     pip install requests
     ```
 
-3. **Run the Script**:
-    ```sh
-    python virustotal_file_scanner.py
-    ```
-
 ## Usage
 
 1. **Launch the Application**:
     ```sh
-    python virustotal_file_scanner.py
+    python FileScanner_GUI.py
     ```
 
 2. **Upload a File**:
