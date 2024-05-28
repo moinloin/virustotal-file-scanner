@@ -1,6 +1,6 @@
 # VirusTotal File Scanner
 
-![VirusTotal Logo](https://www.virustotal.com/images/favicon.ico)
+![VirusTotal Logo]([https://www.virustotal.com/images/favicon.ico](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/VirusTotal_logo.svg/2560px-VirusTotal_logo.svg.png))
 
 ## Overview
 
@@ -125,7 +125,7 @@ display_url = tk.Label(root, text="", cursor="hand2", fg="blue")
 display_url.pack(pady=5)
 
 root.mainloop()
-
+```
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
