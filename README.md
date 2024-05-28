@@ -1,6 +1,6 @@
 # VirusTotal File Scanner
 
-![VirusTotal Logo]([https://www.virustotal.com/images/favicon.ico](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/VirusTotal_logo.svg/2560px-VirusTotal_logo.svg.png))
+![VirusTotal Logo](https://www.virustotal.com/images/favicon.ico](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/VirusTotal_logo.svg/2560px-VirusTotal_logo.svg.png)
 
 ## Overview
 
