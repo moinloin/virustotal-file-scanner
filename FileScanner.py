@@ -3,7 +3,7 @@ import json
 import requests
 import argparse
 
-API_Key = 'KEY_HERE'
+API_Key = ''
 
 parser = argparse.ArgumentParser(description='File Scanner using VirusTotal')
 parser.add_argument('-f', type=str, help='Add File to scan', required=True)
@@ -41,6 +41,9 @@ def FileData(id):
         "stats": stats_json.get("data", {}).get("attributes",{}).get("stats"),
     }
     hash = stats_json.get("meta", {}).get("file_info", {}).get("sha256")
+    print(stats)
+    print("Hash: ", hash)
+    print(f"URL: https://www.virustotal.com/gui/file/{hash}")
 
 FileUpload(fileInput)
 FileData(analysis_id)
